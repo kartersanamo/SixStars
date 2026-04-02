@@ -10,7 +10,7 @@ Course project landing pages, team profiles, and resource links.
 | `site/assets/css/` | `styles.css` |
 | `site/assets/js/` | `script.js` |
 | `site/team/` | Member profile HTML |
-| `site/Iterations/` | Zip deliverables (e.g. `Iteration1.zip`) |
+| `site/iterations/` | Zip deliverables (e.g. `Iteration1.zip`) |
 | **`deploy/`** | `nginx-docker.conf`, sample host config, Docker refresh command |
 
 ## Preview locally
