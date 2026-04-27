@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="/assets/css/styles.css?v=7">
     <script src="/assets/js/script.js?v=7" defer></script>
     <style>
+        .project-features.project-features--four {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+
+        @media (max-width: 1024px) {
+            .project-features.project-features--four {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 640px) {
+            .project-features.project-features--four {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .tech-grid.tech-grid--fixed {
             grid-template-columns: repeat(4, minmax(0, 1fr));
         }
@@ -145,7 +161,7 @@
                         and shop for products all in one integrated platform.
                     </p>
                 </div>
-                <div class="project-features">
+                <div class="project-features project-features--four">
                     <div class="feature-item js-reveal">
                         <div class="feature-icon">
                             <span class="icon-wrap" aria-hidden="true">
