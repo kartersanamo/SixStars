@@ -7,8 +7,9 @@
 .member-video{display:block;width:auto;height:auto;max-width:100%;max-height:min(72vh,820px);margin:0 auto;object-fit:contain;background:#000}
 .member-video-note{margin-top:.75rem;font-size:.8125rem;color:var(--text-muted);line-height:1.5}
 
-/* Resources section: stable 2x2 layout */
-.resources-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;max-width:960px;margin:0 auto}
+/* Resources section: keep 3 cards on one row */
+.resources-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;max-width:1120px;margin:0 auto}
+@media (max-width:980px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:760px){.resources-grid{grid-template-columns:1fr}}
 
 
