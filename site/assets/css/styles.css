@@ -20,3 +20,6 @@
 .member-info-card .time-entry .time-hours{color:#c98cff;font-weight:600}
 .member-info-card .time-entry.total{background:linear-gradient(90deg,#8e45da,#b468ff);border:1px solid rgba(255,255,255,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.16)}
 .member-info-card .time-entry.total .time-period,.member-info-card .time-entry.total .time-hours{color:#fff}
+
+.member-video-frame--placeholder{min-height:300px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#171c24,#0c1016)}
+.member-video-placeholder{color:var(--text-muted);font-size:.95rem;letter-spacing:.04em;text-transform:uppercase}
