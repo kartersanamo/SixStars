@@ -169,7 +169,7 @@
             '<div class="time-breakdown">' +
             buildTimeItem("Iteration 1", i1, member.total, "") +
             buildTimeItem("Iteration 2", i2, member.total, "") +
-            buildTimeItem("Iteration 3", i3, member.total, "time-item--future") +
+            buildTimeItem("Iteration 3", i3, member.total, "") +
             buildTimeItem("Total", member.total, member.total || 1, "total") +
             "</div>" +
             "</div>"
