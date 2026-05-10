@@ -26,6 +26,7 @@
 .member-video-placeholder{color:var(--text-muted);font-size:.95rem;letter-spacing:.04em;text-transform:uppercase}
 
 /* Technical stack — integrations */
-.tech-integrations{text-align:center;margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border)}
-.tech-integrations-title{font-family:var(--font-sans);font-size:.8125rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.5rem}
-.tech-integrations-text{color:var(--text-secondary);font-size:.9375rem;line-height:1.5;margin:0}
+.tech-integrations{margin-top:2.75rem;padding-top:2.25rem;border-top:1px solid var(--border)}
+.tech-integrations-heading{font-family:var(--font-display);text-align:center;color:var(--text);letter-spacing:-.02em;margin-bottom:1.25rem;font-size:clamp(1.2rem,2.4vw,1.45rem);font-weight:600}
+.tech-grid.tech-grid--integrations{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;max-width:420px;margin-top:0;margin-left:auto;margin-right:auto}
+@media (width<=480px){.tech-grid.tech-grid--integrations{grid-template-columns:1fr;max-width:none;width:100%}}
