@@ -24,3 +24,8 @@
 
 .member-video-frame--placeholder{min-height:300px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#171c24,#0c1016)}
 .member-video-placeholder{color:var(--text-muted);font-size:.95rem;letter-spacing:.04em;text-transform:uppercase}
+
+/* Technical stack — integrations */
+.tech-integrations{text-align:center;margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border)}
+.tech-integrations-title{font-family:var(--font-sans);font-size:.8125rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.5rem}
+.tech-integrations-text{color:var(--text-secondary);font-size:.9375rem;line-height:1.5;margin:0}
